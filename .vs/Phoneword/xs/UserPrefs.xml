@@ -1,28 +1,30 @@
-﻿<Properties StartupConfiguration="{5F55E87E-E5A3-4F38-9D28-1029B9859EF6}|Default">
-  <MonoDevelop.Ide.ItemProperties.Phoneword FirstBuild="True" />
+﻿<Properties StartupConfiguration="{5494CF8C-A2D3-4BE3-940A-08411C015269}|Default">
   <MonoDevelop.Ide.ItemProperties.Phoneword.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword.iOS/PhoneDialer.cs">
     <Files>
       <File FileName=".gitignore" Line="11" Column="16" />
-      <File FileName="Phoneword/PhoneTranslator.cs" Line="38" Column="9" />
-      <File FileName="Phoneword/MainPage.xaml.cs" Line="22" Column="18" />
+      <File FileName="Phoneword/PhoneTranslator.cs" Line="21" Column="40" />
+      <File FileName="Phoneword/MainPage.xaml.cs" Line="43" Column="7" />
+      <File FileName="Phoneword/IDialer.cs" Line="5" Column="34" />
+      <File FileName="Phoneword/MainPage.xaml" Line="13" Column="34" />
+      <File FileName="Phoneword.iOS/PhoneDialer.cs" Line="1" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Phoneword" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="Phoneword" expanded="True">
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Phoneword.iOS" expanded="True">
+              <Node name="PhoneDialer.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Phoneword.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Phoneword.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6D2A6680-341A-46E2-B02B-CCA1428F1B86" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
