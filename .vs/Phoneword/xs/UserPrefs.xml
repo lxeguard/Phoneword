@@ -1,19 +1,22 @@
 ﻿<Properties StartupConfiguration="{5F55E87E-E5A3-4F38-9D28-1029B9859EF6}|Default">
   <MonoDevelop.Ide.ItemProperties.Phoneword FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Phoneword.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword/MainPage.xaml.cs">
     <Files>
-      <File FileName="Phoneword/MainPage.xaml" Line="11" Column="27" />
       <File FileName=".gitignore" Line="11" Column="16" />
+      <File FileName="Phoneword/PhoneTranslator.cs" Line="38" Column="9" />
+      <File FileName="Phoneword/MainPage.xaml.cs" Line="22" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Phoneword" expanded="True">
-            <Node name="Solution Items" expanded="True">
-              <Node name="/Volumes/Another/Workspace/Improve/Xamarin/Phoneword/.gitignore" selected="True" />
+            <Node name="Solution Items" expanded="True" />
+            <Node name="Phoneword" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="Phoneword" expanded="True" />
           </Node>
         </State>
       </Pad>
