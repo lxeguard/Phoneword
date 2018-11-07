@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{5494CF8C-A2D3-4BE3-940A-08411C015269}|Default">
   <MonoDevelop.Ide.ItemProperties.Phoneword.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword.iOS/PhoneDialer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword.Android/MainActivity.cs">
     <Files>
       <File FileName=".gitignore" Line="11" Column="16" />
       <File FileName="Phoneword/PhoneTranslator.cs" Line="21" Column="40" />
       <File FileName="Phoneword/MainPage.xaml.cs" Line="43" Column="7" />
       <File FileName="Phoneword/IDialer.cs" Line="5" Column="34" />
       <File FileName="Phoneword/MainPage.xaml" Line="13" Column="34" />
-      <File FileName="Phoneword.iOS/PhoneDialer.cs" Line="1" Column="6" />
+      <File FileName="Phoneword.iOS/PhoneDialer.cs" Line="18" Column="1" />
+      <File FileName="Phoneword.Android/PhoneDialer.cs" Line="15" Column="40" />
+      <File FileName="Phoneword.Android/MainActivity.cs" Line="25" Column="62" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +18,11 @@
             <Node name="Phoneword" expanded="True">
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
-            <Node name="Phoneword.iOS" expanded="True">
-              <Node name="PhoneDialer.cs" selected="True" />
+            <Node name="Phoneword.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
+            <Node name="Phoneword.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
