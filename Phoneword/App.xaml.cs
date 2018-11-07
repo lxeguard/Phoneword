@@ -13,7 +13,7 @@ namespace Phoneword
         {
             InitializeComponent();
             PhoneNumbers = new List<string>();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

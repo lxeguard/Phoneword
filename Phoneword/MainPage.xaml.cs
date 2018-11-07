@@ -37,8 +37,12 @@ namespace Phoneword
                     "Yes",
                     "No")) {
                 var dialer = DependencyService.Get<IDialer>();
-                if (dialer != null)
+                if (dialer != null) {
+                    App.PhoneNumbers.Add(translatedNumber);
+                    callHistoryButton.IsEnabled = true;
                     dialer.Dial(translatedNumber);
+                }
+                    
             }
         }
 
