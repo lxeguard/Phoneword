@@ -1,29 +1,32 @@
-﻿<Properties StartupConfiguration="{5F55E87E-E5A3-4F38-9D28-1029B9859EF6}|Default">
+﻿<Properties StartupConfiguration="{5494CF8C-A2D3-4BE3-940A-08411C015269}|Default">
   <MonoDevelop.Ide.ItemProperties.Phoneword.Android PreferredExecutionTarget="Android.Nexus_5X_API_27" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword/App.xaml.cs">
     <Files>
-      <File FileName="Phoneword/InstructionPracticePage.xaml" Line="18" Column="18" />
-      <File FileName="Phoneword/InstructionPracticePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Phoneword/CallHistoryPage.xaml" Line="12" Column="27" />
+      <File FileName="Phoneword/InstructionPracticePage.xaml" Line="21" Column="9" />
+      <File FileName="Phoneword/InstructionPracticePage.xaml.cs" Line="10" Column="28" />
+      <File FileName="Phoneword/CallHistoryPage.xaml" Line="13" Column="18" />
       <File FileName="Phoneword/MainPage.xaml" Line="16" Column="89" />
-      <File FileName="Phoneword/MainPage.xaml.cs" Line="54" Column="40" />
+      <File FileName="Phoneword/MainPage.xaml.cs" Line="50" Column="10" />
+      <File FileName="Phoneword/App.xaml" Line="5" Column="15" />
+      <File FileName="Phoneword/App.xaml.cs" Line="10" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Phoneword" expanded="True">
             <Node name="Phoneword" expanded="True">
-              <Node name="InstructionPracticePage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
               </Node>
+              <Node name="InstructionPracticePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Phoneword.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6D2A6680-341A-46E2-B02B-CCA1428F1B86" />
+  <MonoDevelop.Ide.ItemProperties.Phoneword.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0624F2CA-B738-4630-9755-767E1B76535F" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

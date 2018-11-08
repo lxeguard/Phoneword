@@ -2,6 +2,7 @@
 <ContentPage 
         xmlns="http://xamarin.com/schemas/2014/forms" 
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:local="clr-namespace:Phoneword;assembly=Phoneword"
         x:Class="Phoneword.InstructionPracticePage"
         Padding="20">
     <ContentPage.Padding>
@@ -12,11 +13,11 @@
     </ContentPage.Padding>
     <StackLayout 
         Spacing="10" 
-        VerticalOptions="End"
-        Orientation="Horizontal"
-        HorizontalOptions="Start">
-        <Label Text="Stop" BackgroundColor="Red" Font="20" WidthRequest="100" />
+        VerticalOptions="FillAndExpand"
+        >
+        <!--<Label Text="Stop" BackgroundColor="Red" Font="20" WidthRequest="100" />
         <Label Text="Slow down" BackgroundColor="Yellow" Font="20" WidthRequest="100" />
-        <Label Text="Go" BackgroundColor="Green" Font="20" WidthRequest="200" />
+        <Label Text="Go" BackgroundColor="Green" Font="20" WidthRequest="200" />-->
+        <ListView ItemsSource="{x:Static local:InstructionPracticePage.BuyList}" />
     </StackLayout>
 </ContentPage>
