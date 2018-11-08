@@ -50,5 +50,10 @@ namespace Phoneword
         {
             await Navigation.PushAsync(new CallHistoryPage());
         }
+
+        async void OnShowPractice(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new InstructionPracticePage());
+        }
     }
 }
